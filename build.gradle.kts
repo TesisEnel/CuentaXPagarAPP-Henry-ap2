@@ -4,10 +4,16 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android) apply false
     id("com.google.devtools.ksp") version "1.9.24-1.0.20" apply false
     id("com.google.dagger.hilt.android") version "2.51" apply false
-
+    id("org.sonarqube") version "6.2.0.5505"
 }
 
-
+sonar {
+  properties {
+    property("sonar.projectKey", "TesisEnel_CuentaXPagarAPP-Henry-ap2")
+    property("sonar.organization", "tesisenel")
+    property("sonar.host.url", "https://sonarcloud.io")
+  }
+}
 
 buildscript {
     dependencies {
