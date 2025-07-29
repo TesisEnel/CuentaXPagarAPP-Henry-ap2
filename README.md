@@ -1,3 +1,4 @@
+
 # CuentaXPagarAPP
 Descripción
 La Cuenta por Pagar App es una aplicación diseñada para gestionar proveedores y sus facturas pendientes. La aplicación permite registrar proveedores, asociar facturas a los mismos, y gestionar el estado de cada factura, marcándolas como vencidas si es necesario. Además, se incluye la funcionalidad de consultar las facturas pendientes por proveedor, lo que facilita la gestión y seguimiento de las cuentas por pagar.
